@@ -1,10 +1,44 @@
 .App {
   text-align: center;
+ 
+}
+
+
+.container{
+  text-align: center;
+  width:40vw;
+  border:1px solid black;
+  margin: auto;
+  height:300px;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+
+
+.bigdiv{
+  
+  cursor: pointer;
+
+  display: flex;
+  gap:20px;
+  font-size: 25px;
+  font-weight: bold;
+  justify-content: space-around;
+}
+
+.bigdiv>div{
+  width: 100%;
+  /* border:1px solid black; */
+  text-align: center;
+}
+
+.bigdiv>div:hover{
+  border-bottom: 2px solid blue;
+
 }
 
 @media (prefers-reduced-motion: no-preference) {

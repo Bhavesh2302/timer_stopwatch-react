@@ -1,0 +1,42 @@
+.startbutton{
+    width:5vw;
+    height:70px;
+ border-radius: 50%;
+ margin-left:15px;
+ background-color:rgb(87, 165, 190);
+ color:white;;
+}
+.displaybuttons{
+   
+    display: flex;
+    
+    gap:15%;
+}
+.resetbutton{
+    width:5vw;
+    height:70px;
+ border-radius: 50%;
+ margin-left:15px;
+ background-color:rgb(87, 165, 190);
+ color:white;
+}
+.stopbutton{
+    width:5vw;
+    color:white;
+    height:70px;
+ border-radius: 50%;
+ margin-left:15px;
+ background-color:rgb(87, 165, 190);
+}
+
+.stopbutton:hover{
+    background-color: lightblue;
+}
+
+.startbutton:hover{
+    background-color: lightblue;
+}
+
+.resetbutton:hover{
+    background-color: lightblue;
+}
